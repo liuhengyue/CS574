@@ -7,11 +7,19 @@
 //
 
 #include <iostream>
+//opencv header files
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv/cvaux.h>
+#include <opencv/cxcore.h>
+#include <opencv2/nonfree/nonfree.hpp>
+using namespace cv;
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    std::cout<<"test";
-    std::cout<<"";
+    Mat test(200,200,CV_32F);
+    circle(test, Point(100,100), 5, Scalar(255,0,0));
+    imshow("test", test);
+    waitKey();
     return 0;
 }
