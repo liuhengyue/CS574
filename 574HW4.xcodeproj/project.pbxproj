@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		561E399E1BEF641B00E135C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 561E399D1BEF641B00E135C6 /* main.cpp */; };
+		561E399E1BEF641B00E135C6 /* 574HW4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 561E399D1BEF641B00E135C6 /* 574HW4.cpp */; };
 		561E39B71BEF725F00E135C6 /* libopencv_calib3d.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 561E39A51BEF725F00E135C6 /* libopencv_calib3d.2.4.11.dylib */; };
 		561E39B81BEF725F00E135C6 /* libopencv_contrib.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 561E39A61BEF725F00E135C6 /* libopencv_contrib.2.4.11.dylib */; };
 		561E39B91BEF725F00E135C6 /* libopencv_core.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 561E39A71BEF725F00E135C6 /* libopencv_core.2.4.11.dylib */; };
@@ -42,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		561E399A1BEF641B00E135C6 /* 574HW4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 574HW4; sourceTree = BUILT_PRODUCTS_DIR; };
-		561E399D1BEF641B00E135C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		561E399D1BEF641B00E135C6 /* 574HW4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 574HW4.cpp; sourceTree = "<group>"; };
 		561E39A51BEF725F00E135C6 /* libopencv_calib3d.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.2.4.11.dylib; sourceTree = "<group>"; };
 		561E39A61BEF725F00E135C6 /* libopencv_contrib.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_contrib.2.4.11.dylib; sourceTree = "<group>"; };
 		561E39A71BEF725F00E135C6 /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				561E39A41BEF725F00E135C6 /* libopencv 2.4.11 */,
-				561E399D1BEF641B00E135C6 /* main.cpp */,
+				561E399D1BEF641B00E135C6 /* 574HW4.cpp */,
 			);
 			path = 574HW4;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561E399E1BEF641B00E135C6 /* main.cpp in Sources */,
+				561E399E1BEF641B00E135C6 /* 574HW4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
